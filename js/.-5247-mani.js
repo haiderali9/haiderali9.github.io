@@ -10,12 +10,10 @@ document.addEventListener('DOMContentLoaded', () => {
         .from('.img_02', 3, {
             opacity : 0,    
            
-        },"-=3")
+        }).to('.img_02', 3, { opacity: 1}).to('.img_02', 1, { opacity: 0})
         .from('.img_03', 3, {
             opacity : 0
-            
-        })
-  
+        }, ".img_02-=2")
 
         
    
@@ -27,7 +25,6 @@ document.addEventListener('DOMContentLoaded', () => {
         duration: '100%',
         triggerHook: 0,
         offset: '0',
-        ease:Power1.easeInOut
     })
         .setTween(authTimeline)
         .setPin('.mobileContainer')
@@ -40,15 +37,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
     let signTimeline = new TimelineMax();
     signTimeline
-        .to('.sign_01', 3, {
+        .to('.sign_01', 2, {
             opacity: 0
         })
-        .from('.sign_02', 3, {
+        .from('.sign_02', 0, {
             opacity: 0
-        }, '-=3')
+        }).to('.sign_02', 3, { opacity: 1}).to('.sign_02', 1, { opacity: 0})
         .from('.sign_03', 3, {
             opacity: 0
-        })
+        }, ".sign_02-=2")
 
 
 
