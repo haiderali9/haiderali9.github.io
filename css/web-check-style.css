@@ -167,16 +167,15 @@ body{
     width: 250px;
 
     padding: 4px;
-    background:#d8f3f7;
+    background:rgba(255, 255, 255, 0.2);
     border-radius: 30px;
-  
-    box-shadow: inset 5px 5px 3px rgb(212, 212, 212,0.8) ;
+    border: 1px solid #3DBDD9;
 
 
 }
 .emailExample1 input{
     width: 100%;
-    font-family:poppins;
+    font-family:REGhelevatic !important;
     padding: 2px 20px;
     background: transparent;
     border: none;
@@ -186,7 +185,7 @@ body{
 }
 .emailExample input{
     width: 100%;
-    font-family:helevatic !important;
+    font-family:REGhelevatic !important;
     padding: 2px 20px;
     background: transparent;
     border: none;
@@ -1043,6 +1042,7 @@ body{
     }
     .getEarlybtn{
         width: 140px !important;
+        font-family: poppins !important;
     }
     .animatedConten h2{
         font-size: 26px!important;
@@ -1458,7 +1458,7 @@ background-repeat: no-repeat;
     margin: 8px 4px;
     background-color: #0DADC9;
     color: #F5EDFA;
-    font-family: BoldmyraidePro;
+    font-family: REGhelevatic;
 
 
 }
