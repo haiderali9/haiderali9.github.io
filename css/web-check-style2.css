@@ -1,0 +1,543 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  @font-face {
+    font-family:Phophin ;
+    src: url(../fonts/fonts-Poppins-Regular.ttf);
+}
+  
+@font-face {
+  font-family: myraidePro;
+  src: url(./asset/fonts/MyriadPro-Light.otf);
+}
+
+@font-face {
+  font-family: REGmyraidePro;
+  src: url(./asset/fonts/MYRIADPRO-REGULAR.OTF);
+}
+@font-face {
+  font-family:helevatic;
+  src: url(../fonts/fonts-helvetica-neue-bold.ttf);
+}
+@font-face {
+  font-family:REGhelevatic;
+  src: url(../fonts/fonts-helveticaneue.ttf);
+}
+@font-face {
+  font-family:lighthelevatic;
+  src: url(../fonts/fonts-HelveticaNeue\ Light.ttf);
+}
+/* ----------frequently---------- */
+.footer-links ul li a{
+  font-family: myraidePro !important;
+  font-weight: lighter;
+  /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+
+
+
+}
+  #frequently {
+    width: 100%;
+    
+  }
+  
+  .freq-1 {
+    text-align: center;
+    color: #272e55;
+  }
+  
+  .freq-heading {
+    font-size: 50px;
+  font-family:helevatic;
+
+    margin: 20px 0px;
+  }
+  
+  .freq-p {
+    font-size: 17px;
+    margin: 10px 0px;
+    font-family: Phophin;
+  }
+  
+  
+  .expCollaspebtn{
+    text-align: center;
+    margin-top: 20px;
+  }
+  .expCollaspebtn button{
+    width: 140px;
+    padding: 6px;
+    background-color: #F3F6FA;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    font-size:14px;
+  }
+  /* ----------Glass box---------- */
+  
+  #glass-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../images/images-Website\ Source.png);
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+  }
+  
+  .glass-box {
+    transform: translateY(200px);
+    position: relative;
+    text-align: center;
+    width: 800px;
+    height: 500px;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+   
+    color: white;
+    transition: .5s all ease-out;
+    opacity: 0;
+  
+  }
+ .fade-in{
+   transform: translateY(0px);
+   opacity: 1;
+ }
+  
+  .glass-box:before {
+    content: '';
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    right: -20px;
+    bottom: -20px;
+    border-radius: 20px;
+    background: url(../images/images-Website\ Source.png);
+    /* background-attachment: fixed; */
+    filter: blur(20px);
+  }
+  
+  .glass-box h2 {
+    position: relative;
+    top: 25%;
+    margin: 0 0 20px;
+    padding: 0;
+    font-size: 48px;
+    z-index: 2;
+  font-family:helevatic !important;
+
+  }
+  
+  .glass-box p {
+    position: relative;
+    top: 24%;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-weight: 400;
+    z-index: 2;
+  }
+  
+  /* ----------get early & footer---------- */
+  
+  #footer {
+    width: 100%;
+    /* height: 100%; */
+  }
+  
+  .early {
+    text-align: center;
+    width: 100%;
+    min-height: 40%;
+    padding: 20px 0px;
+    background-color: #30c4dd;
+  }
+  
+  .early-text {
+    /* border: 1px solid green; */
+    padding: 10px 0px;
+  }
+  
+  .early-heading {
+    font-size: 45px;
+    color: #f3f6fa;
+  font-family:helevatic;
+
+    margin: 5px 0px;
+  }
+  
+  .early-para {
+    font-size: 20px;
+  font-family:lighthelevatic;
+    
+
+    color: #f3f6fa;
+    margin: 5px 0px 30px 0px;
+  }
+  
+  .early-btn {
+    width: 150px;
+    /* height: 40px; */
+    background-color: #0dadc9;
+    color: #b8eef6;
+    border: none;
+    border-radius: 50px;
+    padding: 5px 10px;
+    font-size: 20px;
+    margin-right: 10px;
+  font-family: REGmyraidePro;
+
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  
+  .early-btn:hover {
+    background-color: #b8eef6;
+    color: #0dadc9;
+    transition: 0.5s;
+  }
+  
+  .early-btn2 {
+    width: 150px;
+    /* height: 40px; */
+    background-color: #b8eef6;
+    color: #0dadc9;
+    border: none;
+    border-radius: 50px;
+    padding: 5px 10px;
+    font-size: 20px;
+  font-family: REGmyraidePro;
+
+    margin-left: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  
+  .early-btn2:hover {
+    background-color: #0dadc9;
+    color: #b8eef6;
+    transition: 0.5s;
+  }
+  
+  
+  #offer,#offer2 {
+      width: 100%;
+      
+      background-color: #f3f6fa;
+      padding: 30px 60px;
+      /* border: 1px solid red; */
+  }
+  
+  #offer h1 {
+      font-size: 50px;
+      text-align: center;
+      font-weight: bolder;
+      color: #272e55;
+  }
+  
+  .small-h {
+      font-size: 35px;
+      /* text-align: center; */
+      margin-top: 10px;
+      margin-bottom: 5px;
+      margin-left: 50px;
+  font-family:helevatic !important;
+
+      font-weight: bold;
+      color:  #272E55 !important;
+      /* color: #272e55; */
+  }
+  .offerheading{
+  font-family:helevatic !important;
+ 
+  }
+  .card-main {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow-x: hidden;
+  }
+  
+  .card1 {
+      margin-top: 10px;
+      border-right: 1px solid rgb(112, 111, 111);
+      /* width: 500px; */
+      padding: 0px 50px;
+      
+      
+  }
+
+  
+
+  .card3 {
+      border: none;
+  }
+  
+  .card1 img {
+      width: 50px;
+  }
+  .card1 h2{
+  font-family:helevatic !important;
+
+  }
+  .card1 p {
+      font-size: 21px;
+  font-family:REGhelevatic !important;
+
+      margin-top: 30px;
+  }
+  
+  #offer h2 {
+      font-size: 26px;
+      margin-top: 50px;
+      color: #2641da;
+  }
+  #offer p,#offer2 p{
+    color: #778388;
+  }
+  
+  #offer2 h2 {
+      font-size: 30px;
+      margin-top: 50px;
+      color: #3A9F2F;
+  }
+  
+  .footer-main {
+    /* border: 1px solid red; */
+    /* min-height: 60%; */
+    background-color:#09152F;
+    color: #f3f6fa;
+    padding: 50px 80px;
+    display: flex;
+  }
+  
+  .footer-text {
+      /* border: 1px solid green; */
+      width: 75%;
+      height: 100%;
+  }
+  
+  .footer-links {
+      /* border: 1px solid yellow; */
+      width: 25%;
+      /* height: 100px; */
+  }
+  
+  .footer-text h1 {
+      font-size: 40px;
+    font-family:helevatic;
+
+      margin-bottom: 20px;
+  }
+  
+  .footer-text p {
+    font-family:REGhelevatic;
+
+      font-size: 18px;
+  }
+  
+  /* .footer-text img {
+      width: 120px;
+  } */
+  
+  #play {
+      width: 134px;
+      margin-top: 20px;
+      margin-left: -8px;
+      border: none;
+
+  }
+  #app {
+      width: 120px;
+      /* margin-bottom: 3px; */
+      margin-top: 17px;
+      border: none;
+  }
+  
+  #copyright {
+      font-size: 12px;
+      margin: 20px 20px;
+      color: rgb(107, 106, 106);
+      font-family: REGmyraidePro !important;
+  }
+  
+  .footer-links ul {
+      list-style-type: none;
+  }
+  
+  .footer-links ul li {
+      margin: 10px 0px;
+  }
+  
+  .footer-links ul li a{
+      text-decoration: none;
+      color: white;
+      font-size: 18px;
+  }
+  
+  .social-icon {
+      width: 100%;
+      display: flex;
+  }
+  
+  .social-icon img {
+      width: 25px;
+      margin: 15px 7px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  @media screen and (max-width: 800px) {
+    .glass-box {
+      width: 600px;
+    }
+    .card1 {
+        padding: 0;
+      }
+  }
+  
+  @media screen and (max-width: 880px) {
+      .acc {
+          width: 100%;
+      }
+      .card-main {
+          display: block;
+          text-align: center;
+      }
+      .small-h {
+          text-align: center;
+          padding: 0;
+          margin: 0;
+      }
+    .card1 {
+        border: none;
+        text-align: center;
+        margin-top: 90px;
+        border-top: 1px solid rgb(112, 111, 111);
+    }
+    .card1 img {
+        margin-top: 80px;
+    }
+  }
+  
+  @media screen and (max-width: 730px) {
+      .footer-main {
+          display: block;
+      }
+      .footer-links {
+          width: 100%;
+          margin-top: 30px;
+      }
+      .footer-text {
+          width: 100%;
+      }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .glass-box {
+      width: 400px;
+      height: 400px;
+      padding: 30px;
+    }
+    .glass-box h2 {
+      top: 50px;
+      font-size: 30px;
+    }
+    .glass-box p {
+      top: 50px;
+    }
+  }
+  
+  @media screen and (max-width: 585px) {
+    .freq-heading {
+      font-size: 40px;
+      margin: 20px 0px;
+    }
+  
+    .freq-p {
+      font-size: 15px;
+      margin: 15px 0px;
+    }
+    .footer-text h1 {
+        font-size: 30px;
+    }
+    .footer-main {
+        padding: 30px 40px;
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+    .freq-heading {
+      font-size: 30px;
+      margin: 20px 0px;
+    }
+  
+    .freq-p {
+      font-size: 15px;
+      margin: 15px 0px;
+    }
+    #offer h1 {
+        font-size: 40px;
+        margin: 30px 0px;
+    }
+    .small-h {
+        font-size: 30px;
+        padding: 0;
+    }
+    .early-para {
+        padding: 10px;
+    }
+  }
+  
+  @media screen and (max-width: 340px) {
+  
+    .early-heading {
+      font-size: 35px;
+    }
+    .early-para {
+      font-size: 15px;
+    }
+    .early-btn {
+      width: 100px;
+      font-size: 15px;
+    }
+    .early-btn2 {
+      width: 100px;
+      font-size: 15px;
+    }
+    .glass-box h2 {
+      top: 50px;
+      font-size: 25px;
+    }
+    .glass-box p {
+      top: 50px;
+    }
+    #play {
+        width: 100px;
+    }
+    #app {
+        width: 80px;
+    }
+    #copyright {
+        margin: 20px 0px;
+    }
+  }
+.glass-box P,.glass-box h2{
+  
+  font-family: Phophin;
+}
